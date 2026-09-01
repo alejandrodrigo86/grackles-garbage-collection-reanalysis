@@ -39,7 +39,7 @@ The first three pipeline stages reconstruct the model-ready datasets from the or
 
 ## Verification
 
-On August 31, 2026, the six non-bootstrap model-fitting scripts were run from a clean copy of this archive. The regenerated primary, decomposition, displacement, elapsed-time, reviewer-contrast, and 9+ sensitivity estimate files matched the packaged files exactly by SHA-256 hash. Node, Python, and R source files also passed syntax or parse checks. The bootstrap replicates are supplied but were not rerun during this release check because they are computationally intensive.
+On September 1, 2026, the six non-bootstrap model-fitting scripts were run from a clean copy of this archive. The regenerated primary, decomposition, displacement, elapsed-time, reviewer-contrast, and 9+ sensitivity estimate files matched the packaged files exactly by SHA-256 hash. Node, Python, and R source files also passed syntax or parse checks. The bootstrap replicates are supplied but were not rerun during this release check because they are computationally intensive.
 
 ## Data access and ethical limits
 
@@ -47,11 +47,11 @@ The public archive contains derived behavioral data needed to reproduce the repo
 
 ## Citation
 
-Until the manuscript has a final bibliographic citation, cite this release using `CITATION.cff`. A Zenodo DOI should be added to that file and to the manuscript when version 1.0.0 is released.
+Until the manuscript has a final bibliographic citation, cite this release using `CITATION.cff`. The Zenodo DOI will be added to that file and to the manuscript when version 1.0.0 is deposited.
 
-## Licensing before release
+## Licensing
 
-The authors should approve the proposed licenses described in `LICENSES_PENDING.md` before making the repository public. No license is granted merely by the presence of this draft archive.
+The authors have approved the repository licenses. Analysis code in `scripts/` is available under the MIT License in `LICENSE-CODE`. Derived datasets, figures, documentation, and other non-code materials are available under the Creative Commons Attribution 4.0 International License in `LICENSE-DATA`. See `LICENSES.md` for the scope of each license.
 
 ## Contact
 

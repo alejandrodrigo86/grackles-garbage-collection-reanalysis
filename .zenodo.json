@@ -1,0 +1,37 @@
+{
+  "title": "Great-tailed Grackle garbage-collection reanalysis",
+  "upload_type": "software",
+  "description": "Derived behavioral datasets, commented analysis code, model output, audits, and publication figures for a reanalysis of Great-tailed Grackle behavior around urban garbage collection.",
+  "creators": [
+    {
+      "name": "Rodrigo, Alejandro",
+      "affiliation": "CEIC, Universidad de Guadalajara"
+    },
+    {
+      "name": "Ávila-Chauvet, Laurent",
+      "affiliation": "Departamento de Psicología, Instituto Tecnológico de Sonora (ITSON), Ciudad Obregón, México"
+    },
+    {
+      "name": "Buriticá, Jonathan",
+      "affiliation": "CEIC, Universidad de Guadalajara"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "publication_date": "2026-09-01",
+  "keywords": [
+    "Quiscalus mexicanus",
+    "urban behavior",
+    "garbage collection",
+    "generalized additive model",
+    "reproducible research"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1101/2021.06.14.448443",
+      "relation": "isNewVersionOf",
+      "resource_type": "publication-preprint"
+    }
+  ]
+}

@@ -3,7 +3,7 @@ message: "If you use these data or code, please cite this software release and t
 title: "Great-tailed Grackle garbage-collection reanalysis"
 type: software
 version: 1.0.0
-date-released: 2026-08-31
+date-released: 2026-09-01
 authors:
   - family-names: Rodrigo
     given-names: Alejandro
@@ -22,4 +22,4 @@ keywords:
   - garbage collection
   - generalized additive model
   - reproducible research
-license: "NOASSERTION"
+license: "CC-BY-4.0"
