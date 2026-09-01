@@ -30,7 +30,7 @@
   "related_identifiers": [
     {
       "identifier": "10.1101/2021.06.14.448443",
-      "relation": "isNewVersionOf",
+      "relation": "isSupplementTo",
       "resource_type": "publication-preprint"
     }
   ]
