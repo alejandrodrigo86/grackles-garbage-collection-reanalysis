@@ -1,0 +1,361 @@
+{
+  "primary": {
+    "analysis": "Primary 30-minute model",
+    "response": "foraging_seconds",
+    "family": "Tweedie log-link mixed GAM",
+    "bin_minutes": 30.0,
+    "interval_rows": 529.0,
+    "observation_days": 25.0,
+    "estimate_log": 0.262094896661973,
+    "standard_error": 0.224997410943515,
+    "rate_ratio": 1.29964986901195,
+    "ci_low": 0.83619626608902,
+    "ci_high": 2.01996809902397,
+    "p_value": 0.244616170876532,
+    "aic": 4528.85058872743,
+    "deviance_explained": 0.333117280915753,
+    "adjusted_r_squared": 0.262380650684586,
+    "residual_lag1": 0.0339701744865625,
+    "convergence": "full convergence",
+    "notes": "Locked primary model"
+  },
+  "estimates": [
+    {
+      "analysis": "Primary 30-minute model",
+      "response": "foraging_seconds",
+      "family": "Tweedie log-link mixed GAM",
+      "bin_minutes": 30.0,
+      "interval_rows": 529.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.262094896661973,
+      "standard_error": 0.224997410943515,
+      "rate_ratio": 1.29964986901195,
+      "ci_low": 0.83619626608902,
+      "ci_high": 2.01996809902397,
+      "p_value": 0.244616170876532,
+      "aic": 4528.85058872743,
+      "deviance_explained": 0.333117280915753,
+      "adjusted_r_squared": 0.262380650684586,
+      "residual_lag1": 0.0339701744865625,
+      "convergence": "full convergence",
+      "notes": "Locked primary model"
+    },
+    {
+      "analysis": "Confirmatory bout-frequency model",
+      "response": "foraging_bouts",
+      "family": "Negative-binomial log-link mixed GAM",
+      "bin_minutes": 30.0,
+      "interval_rows": 529.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.0884924021817952,
+      "standard_error": 0.220597630378456,
+      "rate_ratio": 1.09252595176538,
+      "ci_low": 0.70902037979964,
+      "ci_high": 1.6834677666362,
+      "p_value": 0.688310815915717,
+      "aic": 2142.65700452329,
+      "deviance_explained": 0.360851207991837,
+      "adjusted_r_squared": 0.306971027847033,
+      "residual_lag1": 0.107599586283892,
+      "convergence": "full convergence",
+      "notes": "Poisson rejected before fitting because of overdispersion"
+    },
+    {
+      "analysis": "Hurdle occurrence component",
+      "response": "any_foraging",
+      "family": "Binomial complementary-log-log mixed GAM",
+      "bin_minutes": 30.0,
+      "interval_rows": 529.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.179831073884674,
+      "standard_error": 0.270030886238514,
+      "rate_ratio": 1.19701513892441,
+      "ci_low": 0.705097112198986,
+      "ci_high": 2.03212467903267,
+      "p_value": 0.505433579115753,
+      "aic": 513.128948327512,
+      "deviance_explained": 0.317072939696155,
+      "adjusted_r_squared": 0.369491353989432,
+      "residual_lag1": 0.152655339377504,
+      "convergence": "full convergence",
+      "notes": "Probability that an interval contains any foraging"
+    },
+    {
+      "analysis": "Hurdle positive-duration component",
+      "response": "foraging_seconds",
+      "family": "Gamma log-link mixed GAM",
+      "bin_minutes": 30.0,
+      "interval_rows": 313.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.142441086552676,
+      "standard_error": 0.180612112973541,
+      "rate_ratio": 1.15308514673522,
+      "ci_low": 0.809327073507135,
+      "ci_high": 1.64285293195453,
+      "p_value": 0.430946107620937,
+      "aic": 3993.57800403389,
+      "deviance_explained": 0.15634238469161,
+      "adjusted_r_squared": 0.119909978198024,
+      "residual_lag1": -0.0830837552653685,
+      "convergence": "full convergence",
+      "notes": "Conditional duration among intervals with foraging"
+    },
+    {
+      "analysis": "Primary model excluding N3",
+      "response": "foraging_seconds",
+      "family": "Tweedie log-link mixed GAM",
+      "bin_minutes": 30.0,
+      "interval_rows": 520.0,
+      "observation_days": 24.0,
+      "estimate_log": 0.239617199579535,
+      "standard_error": 0.228553913046634,
+      "rate_ratio": 1.27076260874225,
+      "ci_low": 0.811930739599936,
+      "ci_high": 1.98888590986601,
+      "p_value": 0.294960174673855,
+      "aic": 4406.77255296415,
+      "deviance_explained": 0.327000213571663,
+      "adjusted_r_squared": 0.253418726751371,
+      "residual_lag1": 0.0359764330738379,
+      "convergence": "full convergence",
+      "notes": "Required leverage sensitivity"
+    },
+    {
+      "analysis": "15-minute bin sensitivity",
+      "response": "foraging_seconds",
+      "family": "Tweedie log-link mixed GAM",
+      "bin_minutes": 15.0,
+      "interval_rows": 1037.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.299239753628897,
+      "standard_error": 0.204182266344974,
+      "rate_ratio": 1.34883297230922,
+      "ci_low": 0.903978108911513,
+      "ci_high": 2.01260447487962,
+      "p_value": 0.143080605377429,
+      "aic": 6826.70128445073,
+      "deviance_explained": 0.255118475148195,
+      "adjusted_r_squared": 0.177678296145067,
+      "residual_lag1": 0.128714881173258,
+      "convergence": "full convergence",
+      "notes": "Required aggregation sensitivity"
+    },
+    {
+      "analysis": "60-minute bin sensitivity",
+      "response": "foraging_seconds",
+      "family": "Tweedie log-link mixed GAM",
+      "bin_minutes": 60.0,
+      "interval_rows": 276.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.250614279720077,
+      "standard_error": 0.246170029184276,
+      "rate_ratio": 1.28481440976769,
+      "ci_low": 0.793049124535372,
+      "ci_high": 2.08152057227707,
+      "p_value": 0.309619283758521,
+      "aic": 2815.09863792882,
+      "deviance_explained": 0.439173110444592,
+      "adjusted_r_squared": 0.394989723735479,
+      "residual_lag1": 0.0789725439851961,
+      "convergence": "full convergence",
+      "notes": "Required aggregation sensitivity"
+    },
+    {
+      "analysis": "AR(1) temporal sensitivity",
+      "response": "foraging_seconds",
+      "family": "Tweedie log-link BAM with AR(1)",
+      "bin_minutes": 30.0,
+      "interval_rows": 529.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.259891921871871,
+      "standard_error": 0.226129793889665,
+      "rate_ratio": 1.29678992446406,
+      "ci_low": 0.832506432872401,
+      "ci_high": 2.02000133787466,
+      "p_value": 0.250972770924262,
+      "aic": 4527.44754433669,
+      "deviance_explained": 0.333157468694595,
+      "adjusted_r_squared": 0.262078822934497,
+      "residual_lag1": 0.0358654910821898,
+      "convergence": "TRUE",
+      "notes": "rho fixed to primary Pearson-residual lag-1 estimate: 0.034"
+    }
+  ],
+  "diagnostics": [
+    {
+      "metric": "Tweedie power parameter",
+      "value": 1.38086083699944
+    },
+    {
+      "metric": "Dispersion parameter",
+      "value": 28.6554368752613
+    },
+    {
+      "metric": "Observed zero intervals",
+      "value": 216.0
+    },
+    {
+      "metric": "Expected zero intervals",
+      "value": 214.330454305651
+    },
+    {
+      "metric": "Observed zero fraction",
+      "value": 0.408317580340265
+    },
+    {
+      "metric": "Expected zero fraction",
+      "value": 0.405161539330152
+    },
+    {
+      "metric": "Maximum absolute gradient",
+      "value": 3.50411434091313e-06
+    },
+    {
+      "metric": "Model rank",
+      "value": 32.0
+    },
+    {
+      "metric": "Coefficient count",
+      "value": 32.0
+    }
+  ],
+  "fixed_effects": [
+    {
+      "term": "(Intercept)",
+      "Estimate": 1.60968854818862,
+      "Std. Error": 0.515665691819959,
+      "t value": 3.12157386795984,
+      "Pr(>|t|)": 0.00190162648399679
+    },
+    {
+      "term": "splines::ns(clock_hour, df = 4)1",
+      "Estimate": 3.06892158137661,
+      "Std. Error": 0.475170403950906,
+      "t value": 6.45857055881302,
+      "Pr(>|t|)": 2.48216232295224e-10
+    },
+    {
+      "term": "splines::ns(clock_hour, df = 4)2",
+      "Estimate": 3.07663219521245,
+      "Std. Error": 0.479881789550845,
+      "t value": 6.41122931147708,
+      "Pr(>|t|)": 3.31090681241531e-10
+    },
+    {
+      "term": "splines::ns(clock_hour, df = 4)3",
+      "Estimate": 3.42682022541076,
+      "Std. Error": 1.11064779059486,
+      "t value": 3.08542478941535,
+      "Pr(>|t|)": 0.00214376953852944
+    },
+    {
+      "term": "splines::ns(clock_hour, df = 4)4",
+      "Estimate": -6.28965191004271,
+      "Std. Error": 0.895602037238598,
+      "t value": -7.02282001215131,
+      "Pr(>|t|)": 7.03536894307237e-12
+    },
+    {
+      "term": "collection_day",
+      "Estimate": -0.205276239616685,
+      "Std. Error": 0.257566941975924,
+      "t value": -0.796982089556637,
+      "Pr(>|t|)": 0.425834936995424
+    },
+    {
+      "term": "post_collection_fraction",
+      "Estimate": 0.262094896661973,
+      "Std. Error": 0.224997410943515,
+      "t value": 1.16487961156038,
+      "Pr(>|t|)": 0.244616170876532
+    }
+  ],
+  "smooth_terms": [
+    {
+      "term": "s(observation_id)",
+      "edf": 15.6023649691909,
+      "Ref.df": 23.0,
+      "F": 2.16774349413355,
+      "p-value": 2.12264529975137e-06
+    }
+  ],
+  "bootstrap": [
+    {
+      "metric": "Requested replicates",
+      "value": 2000.0
+    },
+    {
+      "metric": "Successful fits",
+      "value": 2000.0
+    },
+    {
+      "metric": "Converged fits",
+      "value": 2000.0
+    },
+    {
+      "metric": "Bootstrap median rate ratio",
+      "value": 1.26961727064982
+    },
+    {
+      "metric": "Bootstrap 2.5th percentile",
+      "value": 0.67010364991426
+    },
+    {
+      "metric": "Bootstrap 97.5th percentile",
+      "value": 2.47530764717374
+    },
+    {
+      "metric": "Proportion of rate ratios above 1",
+      "value": 0.768
+    },
+    {
+      "metric": "Bootstrap standard error on log scale",
+      "value": 0.332978811400893
+    }
+  ],
+  "leave_one_day_out": [
+    {
+      "metric": "Leave-one-day-out fits",
+      "value": 25.0
+    },
+    {
+      "metric": "Minimum rate ratio",
+      "value": 1.00343428059286
+    },
+    {
+      "metric": "Day omitted at minimum",
+      "value": "V8"
+    },
+    {
+      "metric": "Maximum rate ratio",
+      "value": 1.45370525337004
+    },
+    {
+      "metric": "Day omitted at maximum",
+      "value": "M(4)"
+    },
+    {
+      "metric": "Fits with rate ratio above 1",
+      "value": 25.0
+    }
+  ],
+  "headline": "Adjusted post-collection rate ratio 1.30 (95% CI 0.84–2.02; p = 0.245).",
+  "interpretation": "The estimated association is positive, but the interval includes both a modest decrease and a substantial increase. The data therefore do not resolve whether garbage collection changed foraging activity, although the direction is consistent across all declared checks.",
+  "diagnostic_summary": {
+    "observed_zero_intervals": 216.0,
+    "expected_zero_intervals": 214.330454305651,
+    "tweedie_power": 1.38086083699944,
+    "maximum_absolute_gradient": 3.50411434091313e-06,
+    "bootstrap_ci_low": 0.67010364991426,
+    "bootstrap_ci_high": 2.47530764717374,
+    "bootstrap_positive_fraction": 0.768,
+    "leave_one_out_min": 1.00343428059286,
+    "leave_one_out_max": 1.45370525337004,
+    "leave_one_out_positive_fits": 25.0
+  },
+  "software": {
+    "R": "4.4.1",
+    "mgcv": "1.9-1",
+    "nlme": "3.1-164"
+  }
+}

@@ -1,0 +1,4 @@
+"subset","successful_fits","declining_fits","minimum","maximum"
+"All excluded days",25,25,0.827994339435363,0.901297705838608
+"Collection days excluded",12,12,0.8301305111865,0.901297705838608
+"Non-collection days excluded",13,13,0.827994339435363,0.878707009174871

@@ -1,0 +1,29 @@
+
+Family: Negative Binomial(0.615) 
+Link function: log 
+
+Formula:
+displacement_events ~ ns(clock_hour, df = 4) + collection_day + 
+    post_collection + offset(camera_offset) + s(observation_id, 
+    bs = "re")
+
+Parametric coefficients:
+                        Estimate Std. Error z value Pr(>|z|)    
+(Intercept)              -4.5494     1.3814  -3.293  0.00099 ***
+ns(clock_hour, df = 4)1   3.3522     1.2723   2.635  0.00842 ** 
+ns(clock_hour, df = 4)2   1.9609     1.1476   1.709  0.08751 .  
+ns(clock_hour, df = 4)3   3.4961     2.8641   1.221  0.22221    
+ns(clock_hour, df = 4)4  -3.4902     1.7927  -1.947  0.05155 .  
+collection_day           -0.2725     0.6354  -0.429  0.66806    
+post_collection           0.3897     0.5196   0.750  0.45330    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Approximate significance of smooth terms:
+                    edf Ref.df Chi.sq p-value    
+s(observation_id) 16.33     23  54.77  <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-sq.(adj) =   0.18   Deviance explained = 35.9%
+-REML = 288.59  Scale est. = 1         n = 541

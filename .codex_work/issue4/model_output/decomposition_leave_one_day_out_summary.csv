@@ -1,0 +1,4 @@
+"mechanism","fits","minimum_ratio","omitted_at_minimum","maximum_ratio","omitted_at_maximum","fits_above_one"
+"Patch attendance",25,1.06910897899088,"V8",1.48260731601393,"V4",25
+"Conditional foraging intensity",25,0.943701076674679,"V2",1.08384436937908,"N4",21
+"Attendance × intensity",25,1.08681089425763,"V8",1.53455591977494,"M(4)",25

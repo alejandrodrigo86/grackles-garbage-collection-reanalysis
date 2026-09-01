@@ -1,0 +1,4 @@
+"mechanism","requested_replicates","successful_fits","converged_joint_fits","median_ratio","ci_low","ci_high","fraction_above_one"
+"Patch attendance",2000,2000,2000,1.31125511368767,0.765516472735594,2.36234579276929,0.8275
+"Conditional foraging intensity",2000,2000,2000,1.02959874280206,0.794246109368745,1.35125059061293,0.59
+"Attendance × intensity",2000,2000,2000,1.35987491538566,0.74582983921413,2.51304302458715,0.8325

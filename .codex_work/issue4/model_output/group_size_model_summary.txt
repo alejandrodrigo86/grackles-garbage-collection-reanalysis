@@ -1,0 +1,28 @@
+
+Family: Gamma 
+Link function: log 
+
+Formula:
+time_weighted_mean_group_size ~ splines::ns(clock_hour, df = 4) + 
+    collection_day + post_collection + s(observation_id, bs = "re")
+
+Parametric coefficients:
+                                 Estimate Std. Error t value Pr(>|t|)   
+(Intercept)                       0.49363    0.18089   2.729  0.00671 **
+splines::ns(clock_hour, df = 4)1 -0.03502    0.17138  -0.204  0.83820   
+splines::ns(clock_hour, df = 4)2  0.08296    0.15159   0.547  0.58459   
+splines::ns(clock_hour, df = 4)3  0.34930    0.38098   0.917  0.35992   
+splines::ns(clock_hour, df = 4)4 -0.06493    0.15588  -0.417  0.67732   
+collection_day                   -0.06717    0.10705  -0.627  0.53080   
+post_collection                   0.21929    0.09157   2.395  0.01722 * 
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Approximate significance of smooth terms:
+                    edf Ref.df     F p-value   
+s(observation_id) 15.42     23 1.464 0.00185 **
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-sq.(adj) =  0.143   Deviance explained =   20%
+-REML = 366.29  Scale est. = 0.035809  n = 336

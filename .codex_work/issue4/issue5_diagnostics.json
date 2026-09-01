@@ -1,0 +1,111 @@
+{
+  "dataset": {
+    "interval_rows": 529,
+    "full_30_minute_rows": 480,
+    "partial_edge_rows": 49,
+    "observation_days": 25,
+    "median_bins_per_day": 24,
+    "min_bins_per_day": 6,
+    "max_bins_per_day": 26
+  },
+  "full_bin_profiles": {
+    "foraging_bouts": {
+      "n": 480,
+      "mean": 3.4166666666666665,
+      "variance": 16.33542101600557,
+      "variance_to_mean": 4.78109883395285,
+      "zero_n": 178,
+      "zero_fraction": 0.37083333333333335,
+      "q25": 0.0,
+      "median": 2.0,
+      "q75": 6.0,
+      "max": 22,
+      "positive": {
+        "n": 302,
+        "mean": 5.430463576158941,
+        "median": 5.0,
+        "sd": 3.876001525315785,
+        "cv": 0.7137515003935165,
+        "skewness": 1.161436798333965,
+        "max": 22
+      }
+    },
+    "foraging_seconds": {
+      "n": 480,
+      "mean": 146.77444791666653,
+      "variance": 37916.37919732081,
+      "variance_to_mean": 258.33092704834036,
+      "zero_n": 175,
+      "zero_fraction": 0.3645833333333333,
+      "q25": 0.0,
+      "median": 70.27200000000266,
+      "q75": 239.85525000000234,
+      "max": 1625.327999999994,
+      "positive": {
+        "n": 305,
+        "mean": 230.98929508196701,
+        "median": 190.23900000000503,
+        "sd": 200.56551249530585,
+        "cv": 0.8682892097840932,
+        "skewness": 2.0773121834577193,
+        "max": 1625.327999999994
+      }
+    },
+    "focal_visible_seconds": {
+      "n": 480,
+      "mean": 329.54679583333325,
+      "variance": 149783.39967424594,
+      "variance_to_mean": 454.5132939177421,
+      "zero_n": 154,
+      "zero_fraction": 0.32083333333333336,
+      "q25": 0.0,
+      "median": 197.39899999999943,
+      "q75": 533.5347500000012,
+      "max": 1761.524999999987,
+      "positive": {
+        "n": 326,
+        "mean": 485.22227607361947,
+        "median": 386.2279999999937,
+        "sd": 380.7729697360478,
+        "cv": 0.7847392597413968,
+        "skewness": 0.8424545216750412,
+        "max": 1761.524999999987
+      }
+    }
+  },
+  "count_family_check": {
+    "poisson_dispersion_variance_to_mean": 4.78109883395285,
+    "nb2_alpha_mle_intercept_only": 1.7405419348429867,
+    "poisson_log_likelihood": -1652.210377790255,
+    "poisson_aic": 3306.42075558051,
+    "negative_binomial_log_likelihood": -1115.5331649792731,
+    "negative_binomial_aic": 2235.0663299585462,
+    "aic_improvement_nb_over_poisson": 1071.3544256219639,
+    "observed_zero_fraction": 0.37083333333333335,
+    "poisson_expected_zero_fraction": 0.03282165832666321,
+    "negative_binomial_expected_zero_fraction": 0.3283707099802297,
+    "observed_minus_nb_zero_fraction": 0.042462623353103635
+  },
+  "dependence": {
+    "adjacent_pairs": 504,
+    "raw_lag1_foraging_bout_correlation": 0.40717288748461344
+  },
+  "all_bin_exposure": {
+    "foraging_bout_rate_per_camera_hour": 6.658243808741461,
+    "camera_hours": 251.7180277777778
+  },
+  "decision": {
+    "primary_estimand": "Multiplicative change in expected foraging seconds per camera time after the end of garbage collection, beyond the diurnal pattern and a collection-day baseline.",
+    "primary_response": "foraging_seconds",
+    "primary_family": "Tweedie mixed-effects model with log link",
+    "offset": "log(camera_seconds / 1800)",
+    "fixed_effects": [
+      "natural cubic spline of clock time with 4 degrees of freedom",
+      "collection_day",
+      "post_collection_fraction = post_collection_camera_seconds / camera_seconds"
+    ],
+    "random_effect": "random intercept for observation_id",
+    "temporal_check": "inspect residual within-day autocorrelation; add AR(1) sensitivity if retained",
+    "primary_interpretation": "event-centred association, not a causal food-abundance effect"
+  }
+}

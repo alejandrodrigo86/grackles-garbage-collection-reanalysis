@@ -1,0 +1,27 @@
+
+Family: poisson 
+Link function: log 
+
+Formula:
+visible_displacement_events ~ ns(clock_hour, df = 4) + collection_day + 
+    post_collection + offset(visible_offset) + s(observation_id, 
+    bs = "re")
+
+Parametric coefficients:
+                        Estimate Std. Error z value Pr(>|z|)
+(Intercept)               0.7883     0.7941   0.993    0.321
+ns(clock_hour, df = 4)1  -0.3316     0.7713  -0.430    0.667
+ns(clock_hour, df = 4)2  -0.3916     0.6513  -0.601    0.548
+ns(clock_hour, df = 4)3  -1.3947     1.6385  -0.851    0.395
+ns(clock_hour, df = 4)4  -0.1602     0.6509  -0.246    0.806
+collection_day           -0.2016     0.5211  -0.387    0.699
+post_collection           0.1988     0.4612   0.431    0.666
+
+Approximate significance of smooth terms:
+                    edf Ref.df Chi.sq p-value    
+s(observation_id) 14.73     23  49.95  <2e-16 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-sq.(adj) =  0.337   Deviance explained =   21%
+-REML = 251.12  Scale est. = 1         n = 337

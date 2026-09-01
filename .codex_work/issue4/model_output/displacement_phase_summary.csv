@@ -1,0 +1,4 @@
+"phase","interval_rows","observation_days","focal_visible_hours","foraging_hours","displacement_events","events_per_visible_hour","displacement_events_during_foraging","events_per_foraging_hour","focal_to_others","others_to_focal","unspecified"
+"Non-collection",170,13,23.0980341666667,10.7411413888889,79,3.42020448276966,69,6.4238983085519,17,40,22
+"Collection day: pre",50,11,4.796055,2.16913583333333,9,1.87654228318899,7,3.22709158754851,1,5,3
+"Collection day: post",117,12,16.6276825,7.08628861111112,50,3.00703360194663,42,5.92693895280317,10,15,25

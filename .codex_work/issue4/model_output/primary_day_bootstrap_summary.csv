@@ -1,0 +1,9 @@
+"metric","value"
+"Requested replicates",2000
+"Successful fits",2000
+"Converged fits",2000
+"Bootstrap median rate ratio",1.26961727064982
+"Bootstrap 2.5th percentile",0.67010364991426
+"Bootstrap 97.5th percentile",2.47530764717374
+"Proportion of rate ratios above 1",0.768
+"Bootstrap standard error on log scale",0.332978811400893

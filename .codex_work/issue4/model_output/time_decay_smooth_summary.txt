@@ -1,0 +1,32 @@
+
+Family: Tweedie(p=1.377) 
+Link function: log 
+
+Formula:
+foraging_seconds ~ ns(camera_clock_hour, df = 4) + collection_day + 
+    post_collection + s(post_collection_hours, by = post_collection, 
+    k = 4, bs = "cr") + offset(camera_offset) + s(observation_id, 
+    bs = "re")
+
+Parametric coefficients:
+                               Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                      1.7251     0.5106   3.379 0.000783 ***
+ns(camera_clock_hour, df = 4)1   2.8916     0.4724   6.122 1.83e-09 ***
+ns(camera_clock_hour, df = 4)2   3.2308     0.4848   6.664 6.84e-11 ***
+ns(camera_clock_hour, df = 4)3   3.2573     1.1074   2.941 0.003413 ** 
+ns(camera_clock_hour, df = 4)4  -6.1380     0.9157  -6.703 5.36e-11 ***
+collection_day                  -0.1988     0.2532  -0.785 0.432704    
+post_collection                 -0.3904     0.3789  -1.030 0.303367    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Approximate significance of smooth terms:
+                                            edf Ref.df     F  p-value    
+s(post_collection_hours):post_collection  1.203  1.375 5.386   0.0324 *  
+s(observation_id)                        15.308 23.000 2.054 3.25e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Rank: 35/36
+R-sq.(adj) =  0.266   Deviance explained = 33.6%
+-REML = 2274.9  Scale est. = 29.134    n = 541

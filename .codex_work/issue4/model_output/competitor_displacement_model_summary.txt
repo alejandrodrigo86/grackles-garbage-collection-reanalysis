@@ -1,0 +1,29 @@
+
+Family: Negative Binomial(1.153) 
+Link function: log 
+
+Formula:
+displacement_events_with_known_group ~ splines::ns(clock_hour, 
+    df = 4) + collection_day + post_collection + offset(competitor_offset) + 
+    s(observation_id, bs = "re")
+
+Parametric coefficients:
+                                 Estimate Std. Error z value Pr(>|z|)  
+(Intercept)                       1.66198    1.00787   1.649   0.0991 .
+splines::ns(clock_hour, df = 4)1 -0.33078    0.99454  -0.333   0.7394  
+splines::ns(clock_hour, df = 4)2 -0.90931    0.84753  -1.073   0.2833  
+splines::ns(clock_hour, df = 4)3 -2.86344    2.09406  -1.367   0.1715  
+splines::ns(clock_hour, df = 4)4  0.05848    0.87913   0.067   0.9470  
+collection_day                   -0.01745    0.59215  -0.029   0.9765  
+post_collection                  -0.41276    0.56014  -0.737   0.4612  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Approximate significance of smooth terms:
+                    edf Ref.df Chi.sq  p-value    
+s(observation_id) 12.08     23  27.49 0.000828 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-sq.(adj) =  0.0935   Deviance explained = 18.9%
+-REML =  246.7  Scale est. = 1         n = 263

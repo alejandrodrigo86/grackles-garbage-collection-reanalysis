@@ -1,0 +1,29 @@
+
+Family: Tweedie(p=1.413) 
+Link function: log 
+
+Formula:
+raw_at_site_seconds ~ splines::ns(clock_hour, df = 4) + collection_day + 
+    post_collection_fraction + offset(camera_offset) + s(observation_id, 
+    bs = "re")
+
+Parametric coefficients:
+                                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                        1.8944     0.5152   3.677 0.000261 ***
+splines::ns(clock_hour, df = 4)1   3.6853     0.4747   7.763 4.62e-14 ***
+splines::ns(clock_hour, df = 4)2   3.2221     0.4593   7.015 7.39e-12 ***
+splines::ns(clock_hour, df = 4)3   4.7002     1.0898   4.313 1.94e-05 ***
+splines::ns(clock_hour, df = 4)4  -5.2485     0.7644  -6.866 1.94e-11 ***
+collection_day                    -0.1588     0.2502  -0.635 0.525831    
+post_collection_fraction           0.2668     0.2155   1.238 0.216213    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Approximate significance of smooth terms:
+                    edf Ref.df     F  p-value    
+s(observation_id) 15.95     23 2.285 1.14e-06 ***
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+R-sq.(adj) =  0.341   Deviance explained = 36.1%
+-REML = 2621.3  Scale est. = 34.462    n = 529

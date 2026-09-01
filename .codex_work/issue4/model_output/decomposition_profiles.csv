@@ -1,0 +1,8 @@
+"metric","value"
+"All interval rows",529
+"Intervals with no focal visibility",194
+"Intervals with focal visibility",335
+"Visible intervals with zero foraging",22
+"Visible intervals with foraging equal to focal-visible time",0
+"Mean interval-level foraging proportion when visible",0.505470685357735
+"Exposure-weighted foraging proportion when visible",0.449141287167256

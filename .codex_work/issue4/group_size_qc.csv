@@ -1,0 +1,26 @@
+observation_number,observation_label,original_recording_id,observation_date,subject_count_updates,updates_inside_focal_visible,more_than_eight_updates,duplicate_update_timestamps,focal_visible_seconds,group_size_known_seconds,known_coverage_percent,reconstruction_rule
+1,Observation 1,N2,2017-10-23,333,333,0,0,5908.5019999999995,5869.143000000004,99.33385822667073,Carry update to next update or visible-episode end; pre-first-update time unknown
+2,Observation 2,N3,2017-10-25,303,303,0,2,5674.956999999994,5639.281,99.37134325423092,Carry update to next update or visible-episode end; pre-first-update time unknown
+3,Observation 3,V2,2017-11-29,504,448,3,16,8454.620999999977,6572.351000000002,77.73679033040061,Carry update to next update or visible-episode end; pre-first-update time unknown
+4,Observation 4,V3,2017-11-30,50,50,0,0,1472.1360000000059,1471.3689999999988,99.94789883543321,Carry update to next update or visible-episode end; pre-first-update time unknown
+5,Observation 5,N4,2017-12-01,151,151,0,0,4753.822999999996,4732.276999999985,99.54676478278616,Carry update to next update or visible-episode end; pre-first-update time unknown
+6,Observation 6,M(4),2017-12-02,447,447,0,2,11644.14799999999,11640.30799999999,99.96702206121047,Carry update to next update or visible-episode end; pre-first-update time unknown
+7,Observation 7,N5,2017-12-03,466,455,1,2,10766.393999999991,9944.812999999998,92.36902346319488,Carry update to next update or visible-episode end; pre-first-update time unknown
+8,Observation 8,N6,2017-12-05,263,263,0,1,6538.386000000004,6516.1190000000115,99.65944194790592,Carry update to next update or visible-episode end; pre-first-update time unknown
+9,Observation 9,M(5),2017-12-06,423,422,0,5,7129.271999999995,7117.759999999991,99.8385248872535,Carry update to next update or visible-episode end; pre-first-update time unknown
+10,Observation 10,V4,2017-12-12,371,371,0,1,6443.755000000005,6442.455000000002,99.97982542787548,Carry update to next update or visible-episode end; pre-first-update time unknown
+11,Observation 11,N8,2017-12-13,465,465,0,1,5468.178000000006,5438.948000000011,99.46545266083153,Carry update to next update or visible-episode end; pre-first-update time unknown
+12,Observation 12,M(7),2017-12-14,595,592,0,3,8461.118999999992,8452.407999999992,99.89704671450669,Carry update to next update or visible-episode end; pre-first-update time unknown
+13,Observation 13,V5,2017-12-15,133,133,0,0,3294.011000000013,3292.2370000000155,99.94614468500569,Carry update to next update or visible-episode end; pre-first-update time unknown
+14,Observation 14,V6,2017-12-16,140,140,1,0,3203.19100000001,3202.711000000014,99.98501494291173,Carry update to next update or visible-episode end; pre-first-update time unknown
+15,Observation 15,V7,2017-12-20,751,751,0,3,7567.527999999991,7567.030999999992,99.99343246566119,Carry update to next update or visible-episode end; pre-first-update time unknown
+16,Observation 16,V8,2017-12-21,779,779,5,5,12057.371999999956,12054.92099999994,99.97967218727253,Carry update to next update or visible-episode end; pre-first-update time unknown
+17,Observation 17,M(8),2017-12-22,656,656,1,8,6978.521999999998,6972.995999999994,99.92081417813107,Carry update to next update or visible-episode end; pre-first-update time unknown
+18,Observation 18,N9,2017-12-29,561,561,5,2,8586.728000000036,8549.471000000034,99.56610946567771,Carry update to next update or visible-episode end; pre-first-update time unknown
+19,Observation 19,M(9),2017-12-30,131,131,0,1,2741.476000000004,2739.438000000002,99.9256604836226,Carry update to next update or visible-episode end; pre-first-update time unknown
+20,Observation 20,V9,2017-12-31,112,112,0,5,1958.698999999986,1957.6809999999969,99.94802672590382,Carry update to next update or visible-episode end; pre-first-update time unknown
+21,Observation 21,V1,2018-01-01,237,237,0,4,5806.614999999991,5804.928999999989,99.97096415036987,Carry update to next update or visible-episode end; pre-first-update time unknown
+22,Observation 22,M(1),2018-01-02,400,390,0,2,8639.455000000009,8629.665,99.88668266690425,Carry update to next update or visible-episode end; pre-first-update time unknown
+23,Observation 23,M(2),2018-01-03,485,485,1,6,5322.196999999989,5320.145999999987,99.96146328292616,Carry update to next update or visible-episode end; pre-first-update time unknown
+24,Observation 24,M(3),2018-01-04,200,199,0,2,3420.1770000000224,3388.8410000000226,99.08379010793887,Carry update to next update or visible-episode end; pre-first-update time unknown
+25,Observation 25,N1,2018-01-06,513,513,3,3,7987.116000000007,7961.050000000006,99.67364941237862,Carry update to next update or visible-episode end; pre-first-update time unknown

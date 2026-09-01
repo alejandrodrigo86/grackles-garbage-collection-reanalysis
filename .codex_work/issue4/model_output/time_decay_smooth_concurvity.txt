@@ -1,0 +1,4 @@
+         para s(post_collection_hours):post_collection s(observation_id)
+worst       1                                 1.000000        1.00000000
+observed    1                                 0.784039        0.03333388
+estimate    1                                 0.541110        0.10553881

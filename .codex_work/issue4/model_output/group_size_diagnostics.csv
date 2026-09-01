@@ -1,0 +1,11 @@
+"metric","value"
+"Group-size interval rows",336
+"Observation days",25
+"Known group-size hours",43.6884302777778
+"Focal-visible hours represented",0.98128238482673
+"Intervals containing a 9+ state",11
+"Paired collection days with both phases",11
+"Paired days with larger postcollection mean",8
+"Paired days with smaller postcollection mean",3
+"Gamma model deviance explained",0.200237910538538
+"Gamma model scale",0.0358094089942313

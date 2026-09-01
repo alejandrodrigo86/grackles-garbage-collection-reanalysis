@@ -1,0 +1,2 @@
+Node.js
+@oai/artifact-tool (bundled Codex workspace runtime; required only for build_workbook.mjs and verify_output.mjs)

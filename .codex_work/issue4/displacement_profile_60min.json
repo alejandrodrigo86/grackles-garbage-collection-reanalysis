@@ -1,0 +1,34 @@
+{
+  "bin_seconds": 3600,
+  "segments_all": 288,
+  "segments_with_focal_visibility": 207,
+  "observation_days": 25,
+  "days_with_displacement": 21,
+  "total_focal_visible_seconds": 160278.37799999997,
+  "total_displacement_events": 139,
+  "direction_counts": {
+    "unspecified": 51,
+    "others_to_focal": 60,
+    "focal_to_others": 28
+  },
+  "events_inside_focal_visible": 138,
+  "events_inside_raw_at_site": 136,
+  "events_inside_foraging": 118,
+  "exposure_eligible_displacement_events": 138,
+  "zero_visible_segments_with_events": 0,
+  "collection_day_pre": {
+    "visible_seconds": 17265.79800000001,
+    "events": 9,
+    "events_per_visible_hour": 1.8765422831889949
+  },
+  "collection_day_post": {
+    "visible_seconds": 59859.65699999999,
+    "events": 50,
+    "events_per_visible_hour": 3.0070336019466333
+  },
+  "noncollection": {
+    "visible_seconds": 83152.92299999997,
+    "events": 79,
+    "events_per_visible_hour": 3.420204482769657
+  }
+}

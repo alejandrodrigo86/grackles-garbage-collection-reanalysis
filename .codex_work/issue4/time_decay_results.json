@@ -1,0 +1,579 @@
+{
+  "profile": [
+    {
+      "window": "Non-collection",
+      "rows": 277.0,
+      "observation_days": 13.0,
+      "camera_hours": 131.969152777778,
+      "foraging_hours": 10.7411413888889,
+      "foraging_seconds_per_camera_hour": 293.008693214186,
+      "zero_rows": 119.0
+    },
+    {
+      "window": "Collection pre",
+      "rows": 94.0,
+      "observation_days": 12.0,
+      "camera_hours": 40.9746533333333,
+      "foraging_hours": 2.16913583333333,
+      "foraging_seconds_per_camera_hour": 190.578525130495,
+      "zero_rows": 47.0
+    },
+    {
+      "window": "Post 0-1 h",
+      "rows": 31.0,
+      "observation_days": 12.0,
+      "camera_hours": 12.5539577777778,
+      "foraging_hours": 1.84103916666667,
+      "foraging_seconds_per_camera_hour": 527.940360906105,
+      "zero_rows": 5.0
+    },
+    {
+      "window": "Post 1-3 h",
+      "rows": 48.0,
+      "observation_days": 12.0,
+      "camera_hours": 24.0,
+      "foraging_hours": 3.02748888888889,
+      "foraging_seconds_per_camera_hour": 454.123333333333,
+      "zero_rows": 6.0
+    },
+    {
+      "window": "Post 3-6 h",
+      "rows": 61.0,
+      "observation_days": 12.0,
+      "camera_hours": 29.0570444444444,
+      "foraging_hours": 2.1759788888889,
+      "foraging_seconds_per_camera_hour": 269.59121788788,
+      "zero_rows": 22.0
+    },
+    {
+      "window": "Post >6 h",
+      "rows": 30.0,
+      "observation_days": 6.0,
+      "camera_hours": 13.1632194444444,
+      "foraging_hours": 0.0417816666666638,
+      "foraging_seconds_per_camera_hour": 11.4268398118571,
+      "zero_rows": 27.0
+    }
+  ],
+  "profile_diagnostics": [
+    {
+      "metric": "Post rows",
+      "value": 170.0
+    },
+    {
+      "metric": "Post camera hours",
+      "value": 78.7742216666667
+    },
+    {
+      "metric": "Post days",
+      "value": 12.0
+    },
+    {
+      "metric": "Maximum post-collection hours",
+      "value": 8.55199
+    },
+    {
+      "metric": "Correlation: clock hour versus post hours",
+      "value": 0.913847856255508
+    },
+    {
+      "metric": "Collection-time minimum hour",
+      "value": 9.95944472222222
+    },
+    {
+      "metric": "Collection-time maximum hour",
+      "value": 13.7529063888889
+    },
+    {
+      "metric": "Collection-time standard deviation",
+      "value": 1.10775954399669
+    }
+  ],
+  "model_estimates": [
+    {
+      "analysis": "No-decay event-centred model",
+      "term": "post_collection",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.35650639098734,
+      "standard_error": 0.214696055955977,
+      "effect_ratio": 1.42833065893265,
+      "ci_low": 0.937732880321232,
+      "ci_high": 2.17559660545135,
+      "p_value": 0.0974152799189973,
+      "aic": 4563.87499282172,
+      "deviance_explained": 0.329832532084954,
+      "residual_lag1": 0.0392871708519653,
+      "convergence": "full convergence",
+      "max_gradient": 5.19635789864026e-06,
+      "positive_hessian": true,
+      "notes": "Exact phase splitting but no elapsed-time term"
+    },
+    {
+      "analysis": "Linear post-collection decay",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.153348312319469,
+      "standard_error": 0.0607621014224212,
+      "effect_ratio": 0.857830876706321,
+      "ci_low": 0.761519238713941,
+      "ci_high": 0.966323338427385,
+      "p_value": 0.0119091698944757,
+      "aic": 4560.44514087181,
+      "deviance_explained": 0.335842769920084,
+      "residual_lag1": 0.0351633164215549,
+      "convergence": "full convergence",
+      "max_gradient": 4.40462493145333e-06,
+      "positive_hessian": true,
+      "notes": "Rate ratio for each additional hour after collection ended"
+    },
+    {
+      "analysis": "Immediate post-collection level",
+      "term": "post_collection",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.659867350298888,
+      "standard_error": 0.242158075049835,
+      "effect_ratio": 1.93453570179866,
+      "ci_low": 1.20351476269653,
+      "ci_high": 3.10958244762077,
+      "p_value": 0.00664883679453503,
+      "aic": 4560.44514087181,
+      "deviance_explained": 0.335842769920084,
+      "residual_lag1": 0.0351633164215549,
+      "convergence": "full convergence",
+      "max_gradient": 4.40462493145333e-06,
+      "positive_hessian": true,
+      "notes": "Model-implied ratio at collection end before hourly decay accumulates"
+    },
+    {
+      "analysis": "Linear decay excluding N3",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 531.0,
+      "observation_days": 24.0,
+      "estimate_log": -0.151057087476435,
+      "standard_error": 0.0622969380018784,
+      "effect_ratio": 0.859798613525057,
+      "ci_low": 0.760973425440863,
+      "ci_high": 0.971457913121382,
+      "p_value": 0.0156646898248618,
+      "aic": 4437.4502179616,
+      "deviance_explained": 0.330001738770379,
+      "residual_lag1": 0.0370819502026119,
+      "convergence": "full convergence",
+      "max_gradient": 5.80096945768105e-06,
+      "positive_hessian": true,
+      "notes": "Leverage sensitivity"
+    },
+    {
+      "analysis": "Linear decay 15-minute sensitivity",
+      "term": "post_collection_hours",
+      "bin_minutes": 15.0,
+      "interval_rows": 1049.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.15632117493411,
+      "standard_error": 0.0563476566180357,
+      "effect_ratio": 0.855284450326593,
+      "ci_low": 0.765856431905565,
+      "ci_high": 0.955154857354078,
+      "p_value": 0.00563388258804024,
+      "aic": 6830.56102195308,
+      "deviance_explained": 0.258660585513545,
+      "residual_lag1": 0.134186388838252,
+      "convergence": "full convergence",
+      "max_gradient": 8.260343429356e-05,
+      "positive_hessian": true,
+      "notes": "Aggregation sensitivity"
+    },
+    {
+      "analysis": "Linear decay 60-minute sensitivity",
+      "term": "post_collection_hours",
+      "bin_minutes": 60.0,
+      "interval_rows": 288.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.156706075170487,
+      "standard_error": 0.0655078961921851,
+      "effect_ratio": 0.854955314485788,
+      "ci_low": 0.751939663912486,
+      "ci_high": 0.972084097764211,
+      "p_value": 0.0174442896112137,
+      "aic": 2859.96098816646,
+      "deviance_explained": 0.441726267404298,
+      "residual_lag1": 0.0527088897486851,
+      "convergence": "full convergence",
+      "max_gradient": 0.000575849275804785,
+      "positive_hessian": true,
+      "notes": "Aggregation sensitivity"
+    },
+    {
+      "analysis": "Linear decay limited to first 6 hours",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 511.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.102804087998567,
+      "standard_error": 0.0672900213297451,
+      "effect_ratio": 0.902303728296067,
+      "ci_low": 0.790815880500422,
+      "ci_high": 1.02950893902357,
+      "p_value": 0.127216285598835,
+      "aic": 4513.6337556071,
+      "deviance_explained": 0.295305677930219,
+      "residual_lag1": 0.0241660628356345,
+      "convergence": "full convergence",
+      "max_gradient": 5.83402925791177e-06,
+      "positive_hessian": true,
+      "notes": "Checks whether very late near-zero activity alone drives the slope"
+    },
+    {
+      "analysis": "Linear decay plus observer",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.148445742198136,
+      "standard_error": 0.0608496631355154,
+      "effect_ratio": 0.862046778664943,
+      "ci_low": 0.765130485503597,
+      "ci_high": 0.971239105859822,
+      "p_value": 0.0150406631506336,
+      "aic": 4560.46477806075,
+      "deviance_explained": 0.337247859710835,
+      "residual_lag1": 0.0324692897951716,
+      "convergence": "full convergence",
+      "max_gradient": 4.64513044562409e-06,
+      "positive_hessian": true,
+      "notes": "Observer fixed-effect sensitivity"
+    },
+    {
+      "analysis": "Linear decay with 3-df clock spline",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.132706546402166,
+      "standard_error": 0.0615469880094668,
+      "effect_ratio": 0.875722038188861,
+      "ci_low": 0.776206701576489,
+      "ci_high": 0.987995963719571,
+      "p_value": 0.0315279946384245,
+      "aic": 4590.08885041182,
+      "deviance_explained": 0.294409836584312,
+      "residual_lag1": 0.0664517797311845,
+      "convergence": "full convergence",
+      "max_gradient": 5.58107370984828e-06,
+      "positive_hessian": true,
+      "notes": "Clock-pattern flexibility sensitivity"
+    },
+    {
+      "analysis": "Linear decay with 5-df clock spline",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.154502327125963,
+      "standard_error": 0.0610325293029826,
+      "effect_ratio": 0.85684149816168,
+      "ci_low": 0.760237886257401,
+      "ci_high": 0.965720554373127,
+      "p_value": 0.0116538124911633,
+      "aic": 4557.51505992321,
+      "deviance_explained": 0.342092552224735,
+      "residual_lag1": 0.0300482678713039,
+      "convergence": "full convergence",
+      "max_gradient": 3.98835131498743e-06,
+      "positive_hessian": true,
+      "notes": "Clock-pattern flexibility sensitivity"
+    },
+    {
+      "analysis": "Linear decay with 6-df clock spline",
+      "term": "post_collection_hours",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": -0.161410369651184,
+      "standard_error": 0.0614848215162153,
+      "effect_ratio": 0.850942798347247,
+      "ci_low": 0.754335231689382,
+      "ci_high": 0.959922877309292,
+      "p_value": 0.00891677688116582,
+      "aic": 4553.43793982096,
+      "deviance_explained": 0.349775845098329,
+      "residual_lag1": 0.0194543355933783,
+      "convergence": "full convergence",
+      "max_gradient": 3.35817211549738e-06,
+      "positive_hessian": true,
+      "notes": "Clock-pattern flexibility sensitivity"
+    }
+  ],
+  "window_estimates": [
+    {
+      "analysis": "Window: Post 0-1 h",
+      "term": "post_0_1",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.485850170738276,
+      "standard_error": 0.25425067970118,
+      "effect_ratio": 1.62555642204592,
+      "ci_low": 0.987605448594598,
+      "ci_high": 2.67559649960926,
+      "p_value": 0.0565703579199071,
+      "aic": 4561.00272876331,
+      "deviance_explained": 0.340284332861607,
+      "residual_lag1": 0.0422685070880819,
+      "convergence": "full convergence",
+      "max_gradient": 4.50523886819099e-06,
+      "positive_hessian": true,
+      "notes": "Ratio versus collection-day pre period, adjusted for clock time",
+      "window": "Post 0-1 h"
+    },
+    {
+      "analysis": "Window: Post 1-3 h",
+      "term": "post_1_3",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.432901932493259,
+      "standard_error": 0.247250780377193,
+      "effect_ratio": 1.54172502015802,
+      "ci_low": 0.949613050908942,
+      "ci_high": 2.50303640572981,
+      "p_value": 0.0805643599649949,
+      "aic": 4561.00272876331,
+      "deviance_explained": 0.340284332861607,
+      "residual_lag1": 0.0422685070880819,
+      "convergence": "full convergence",
+      "max_gradient": 4.50523886819099e-06,
+      "positive_hessian": true,
+      "notes": "Ratio versus collection-day pre period, adjusted for clock time",
+      "window": "Post 1-3 h"
+    },
+    {
+      "analysis": "Window: Post 3-6 h",
+      "term": "post_3_6",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": 0.154446628230099,
+      "standard_error": 0.273607440892771,
+      "effect_ratio": 1.16701199089987,
+      "ci_low": 0.682621939585949,
+      "ci_high": 1.99512630333881,
+      "p_value": 0.572671224588645,
+      "aic": 4561.00272876331,
+      "deviance_explained": 0.340284332861607,
+      "residual_lag1": 0.0422685070880819,
+      "convergence": "full convergence",
+      "max_gradient": 4.50523886819099e-06,
+      "positive_hessian": true,
+      "notes": "Ratio versus collection-day pre period, adjusted for clock time",
+      "window": "Post 3-6 h"
+    },
+    {
+      "analysis": "Window: Post >6 h",
+      "term": "post_gt6",
+      "bin_minutes": 30.0,
+      "interval_rows": 541.0,
+      "observation_days": 25.0,
+      "estimate_log": -1.4694608978918,
+      "standard_error": 0.720387322496523,
+      "effect_ratio": 0.230049471918269,
+      "ci_low": 0.0560565596103839,
+      "ci_high": 0.94409574718301,
+      "p_value": 0.041877298907721,
+      "aic": 4561.00272876331,
+      "deviance_explained": 0.340284332861607,
+      "residual_lag1": 0.0422685070880819,
+      "convergence": "full convergence",
+      "max_gradient": 4.50523886819099e-06,
+      "positive_hessian": true,
+      "notes": "Ratio versus collection-day pre period, adjusted for clock time",
+      "window": "Post >6 h"
+    }
+  ],
+  "linear_contrasts": [
+    {
+      "hours_after_collection": 0.0,
+      "estimate_log": 0.659867350298888,
+      "standard_error": 0.242158075049835,
+      "effect_ratio": 1.93453570179866,
+      "ci_low": 1.20351476269653,
+      "ci_high": 3.10958244762077
+    },
+    {
+      "hours_after_collection": 0.5,
+      "estimate_log": 0.583193194139154,
+      "standard_error": 0.229214907669532,
+      "effect_ratio": 1.79175071355967,
+      "ci_low": 1.14332448154083,
+      "ci_high": 2.80792607118416
+    },
+    {
+      "hours_after_collection": 1.0,
+      "estimate_log": 0.506519037979419,
+      "standard_error": 0.219737186130834,
+      "effect_ratio": 1.65950445709362,
+      "ci_low": 1.07879218392314,
+      "ci_high": 2.55281330746998
+    },
+    {
+      "hours_after_collection": 3.0,
+      "estimate_log": 0.199822413340481,
+      "standard_error": 0.222989739894058,
+      "effect_ratio": 1.22118587258298,
+      "ci_low": 0.788810278067765,
+      "ci_high": 1.89056225160919
+    },
+    {
+      "hours_after_collection": 6.0,
+      "estimate_log": -0.260222523617927,
+      "standard_error": 0.327513218559241,
+      "effect_ratio": 0.770880027703658,
+      "ci_low": 0.405701895562584,
+      "ci_high": 1.46476026760571
+    }
+  ],
+  "model_comparison": [
+    {
+      "model": "No elapsed-time term",
+      "aic": 4564.03679827691,
+      "effective_df": 22.0035873563582,
+      "deviance_explained": 0.329832532084954,
+      "delta_aic": 3.70988136427786
+    },
+    {
+      "model": "Linear decay",
+      "aic": 4560.56089510852,
+      "effective_df": 22.6528011206569,
+      "deviance_explained": 0.335842769920084,
+      "delta_aic": 0.233978195888085
+    },
+    {
+      "model": "Smooth decay",
+      "aic": 4560.32691691264,
+      "effective_df": 22.6529054033993,
+      "deviance_explained": 0.33637201448731,
+      "delta_aic": 0.0
+    }
+  ],
+  "confounding": [
+    {
+      "metric": "Post rows",
+      "value": 170.0
+    },
+    {
+      "metric": "Post camera hours",
+      "value": 78.7742216666667
+    },
+    {
+      "metric": "Clock-hour / elapsed-time correlation",
+      "value": 0.913847856255508
+    },
+    {
+      "metric": "Weighted R-squared: elapsed time from clock spline",
+      "value": 0.82345628444732
+    },
+    {
+      "metric": "Approximate VIF from weighted R-squared",
+      "value": 5.66431943991573
+    },
+    {
+      "metric": "Collection-time range hours",
+      "value": 3.79346166666667
+    }
+  ],
+  "model_diagnostics": [
+    {
+      "metric": "Tweedie power",
+      "value": 1.37791456658708
+    },
+    {
+      "metric": "Dispersion",
+      "value": 29.040554095877
+    },
+    {
+      "metric": "Observed zero intervals",
+      "value": 226.0
+    },
+    {
+      "metric": "Expected zero intervals",
+      "value": 223.823293628266
+    },
+    {
+      "metric": "Residual lag-1 correlation",
+      "value": 0.0351633164215549
+    },
+    {
+      "metric": "Maximum absolute gradient",
+      "value": 4.40462493145333e-06
+    }
+  ],
+  "smooth_term": {
+    "term": "s(post_collection_hours):post_collection",
+    "edf": 1.20291395971775,
+    "Ref.df": 1.37507450807338,
+    "F": 5.38556410952892,
+    "p-value": 0.0324431376193776
+  },
+  "bootstrap": {
+    "replicates_requested": 2000,
+    "errors": [],
+    "hourly_decay": {
+      "successful_fits": 2000,
+      "median": 0.8576426692698905,
+      "ci_low": 0.7245564445640819,
+      "ci_high": 1.0026203059935241,
+      "direction_fraction": 0.9705,
+      "minimum": 0.614362299476593,
+      "maximum": 1.13648011222635
+    },
+    "immediate_level": {
+      "successful_fits": 2000,
+      "median": 1.8870955053521001,
+      "ci_low": 1.093275305263688,
+      "ci_high": 3.1883609271542737,
+      "direction_fraction": 0.987,
+      "minimum": 0.597081812052684,
+      "maximum": 4.81017951087281
+    }
+  },
+  "leave_one_day_out": [
+    {
+      "subset": "All excluded days",
+      "successful_fits": 25.0,
+      "declining_fits": 25.0,
+      "minimum": 0.827994339435363,
+      "maximum": 0.901297705838608
+    },
+    {
+      "subset": "Collection days excluded",
+      "successful_fits": 12.0,
+      "declining_fits": 12.0,
+      "minimum": 0.8301305111865,
+      "maximum": 0.901297705838608
+    },
+    {
+      "subset": "Non-collection days excluded",
+      "successful_fits": 13.0,
+      "declining_fits": 13.0,
+      "minimum": 0.827994339435363,
+      "maximum": 0.878707009174871
+    }
+  ],
+  "interpretation": {
+    "hourly_rate_ratio": 0.857830876706321,
+    "hourly_percent_decline": 14.216912329367904,
+    "immediate_rate_ratio": 1.93453570179866,
+    "central_return_to_baseline_hours": 4.303062357309763,
+    "first_six_hour_rate_ratio": 0.902303728296067,
+    "clock_time_correlation": 0.913847856255508,
+    "clock_time_vif": 5.66431943991573,
+    "plain_language": "The fitted post-collection foraging association declines by about 14% per hour, with an initially elevated estimate that approaches the pre-collection level after roughly four hours. The pattern is robust to interval width, observer adjustment, clock-spline flexibility, and removal of individual days, but is weaker when the analysis is restricted to the first six hours. Elapsed time remains strongly correlated with clock time, so the pattern is consistent with a temporary food pulse rather than proof of resource depletion."
+  }
+}

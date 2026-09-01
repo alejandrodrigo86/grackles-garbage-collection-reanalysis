@@ -1,0 +1,140 @@
+observation_number,observation_label,original_recording_id,observation_date,event_time_local,collection_day,collection_phase,direction_category,raw_modifier,recorded_group_size_label,recorded_group_size_lower_bound,focal_competitors_lower_bound,source_event_index
+1,Observation 1,N2,2017-10-23,2017-10-23T10:25:09.178,1,Pre-collection,Not direction-coded,None,3,3,2,242
+1,Observation 1,N2,2017-10-23,2017-10-23T12:24:13.041,1,Post-collection,Not direction-coded,None,3,3,2,470
+1,Observation 1,N2,2017-10-23,2017-10-23T13:28:34.652,1,Post-collection,Not direction-coded,None,3,3,2,653
+1,Observation 1,N2,2017-10-23,2017-10-23T13:29:29.930,1,Post-collection,Not direction-coded,None,3,3,2,658
+1,Observation 1,N2,2017-10-23,2017-10-23T13:29:34.130,1,Post-collection,Not direction-coded,None,3,3,2,661
+1,Observation 1,N2,2017-10-23,2017-10-23T13:29:45.957,1,Post-collection,Not direction-coded,None,3,3,2,664
+1,Observation 1,N2,2017-10-23,2017-10-23T13:29:48.376,1,Post-collection,Not direction-coded,None,3,3,2,667
+1,Observation 1,N2,2017-10-23,2017-10-23T13:30:12.563,1,Post-collection,Not direction-coded,None,3,3,2,670
+2,Observation 2,N3,2017-10-25,2017-10-25T10:39:57.756,1,Post-collection,Not direction-coded,None,2,2,1,8
+2,Observation 2,N3,2017-10-25,2017-10-25T10:43:31.267,1,Post-collection,Not direction-coded,None,2,2,1,37
+2,Observation 2,N3,2017-10-25,2017-10-25T10:44:31.325,1,Post-collection,Not direction-coded,None,3,3,2,43
+2,Observation 2,N3,2017-10-25,2017-10-25T12:25:19.736,1,Post-collection,Not direction-coded,None,3,3,2,262
+2,Observation 2,N3,2017-10-25,2017-10-25T12:26:01.611,1,Post-collection,Not direction-coded,None,3,3,2,265
+2,Observation 2,N3,2017-10-25,2017-10-25T12:32:42.884,1,Post-collection,Not direction-coded,None,2,2,1,314
+2,Observation 2,N3,2017-10-25,2017-10-25T12:47:38.588,1,Post-collection,Not direction-coded,None,3,3,2,361
+2,Observation 2,N3,2017-10-25,2017-10-25T12:47:52.545,1,Post-collection,Not direction-coded,None,3,3,2,367
+2,Observation 2,N3,2017-10-25,2017-10-25T13:29:04.714,1,Post-collection,Not direction-coded,None,5,5,4,454
+2,Observation 2,N3,2017-10-25,2017-10-25T13:38:26.121,1,Post-collection,Not direction-coded,None,2,2,1,531
+3,Observation 3,V2,2017-11-29,2017-11-29T09:40:56.215,1,Pre-collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,56
+3,Observation 3,V2,2017-11-29,2017-11-29T12:05:29.363,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,4,4,3,359
+3,Observation 3,V2,2017-11-29,2017-11-29T12:06:08.426,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,4,4,3,364
+5,Observation 5,N4,2017-12-01,2017-12-01T12:21:55.012,1,Post-collection,Not direction-coded,None,3,3,2,129
+5,Observation 5,N4,2017-12-01,2017-12-01T13:31:30.073,1,Post-collection,Not direction-coded,None,2,2,1,214
+6,Observation 6,M(4),2017-12-02,2017-12-02T10:44:36.153,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,59
+6,Observation 6,M(4),2017-12-02,2017-12-02T12:14:04.295,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,256
+6,Observation 6,M(4),2017-12-02,2017-12-02T12:21:18.664,0,No collection,Focal displaced another grackle,Displacement from focal to others,1,1,0,272
+6,Observation 6,M(4),2017-12-02,2017-12-02T12:52:29.414,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,369
+6,Observation 6,M(4),2017-12-02,2017-12-02T13:36:01.154,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,504
+6,Observation 6,M(4),2017-12-02,2017-12-02T14:16:46.375,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,540
+6,Observation 6,M(4),2017-12-02,2017-12-02T15:11:44.608,0,No collection,Focal displaced another grackle,Displacement from focal to others,3,3,2,616
+6,Observation 6,M(4),2017-12-02,2017-12-02T15:12:12.557,0,No collection,Another grackle displaced focal,Displacement from others to focal,4,4,3,622
+6,Observation 6,M(4),2017-12-02,2017-12-02T15:33:30.406,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,687
+6,Observation 6,M(4),2017-12-02,2017-12-02T16:57:04.817,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,766
+6,Observation 6,M(4),2017-12-02,2017-12-02T17:12:12.948,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,798
+6,Observation 6,M(4),2017-12-02,2017-12-02T17:22:47.584,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,855
+7,Observation 7,N5,2017-12-03,2017-12-03T10:40:31.923,0,No collection,Not direction-coded,None,4,4,3,100
+7,Observation 7,N5,2017-12-03,2017-12-03T10:40:56.543,0,No collection,Not direction-coded,None,4,4,3,103
+7,Observation 7,N5,2017-12-03,2017-12-03T11:01:48.642,0,No collection,Not direction-coded,None,3,3,2,149
+7,Observation 7,N5,2017-12-03,2017-12-03T12:48:31.430,0,No collection,Not direction-coded,None,3,3,2,242
+7,Observation 7,N5,2017-12-03,2017-12-03T13:01:40.850,0,No collection,Not direction-coded,None,Unknown,,,296
+7,Observation 7,N5,2017-12-03,2017-12-03T13:01:44.505,0,No collection,Not direction-coded,None,Unknown,,,297
+7,Observation 7,N5,2017-12-03,2017-12-03T13:56:17.289,0,No collection,Not direction-coded,None,2,2,1,347
+7,Observation 7,N5,2017-12-03,2017-12-03T13:58:57.485,0,No collection,Not direction-coded,None,1,1,0,365
+7,Observation 7,N5,2017-12-03,2017-12-03T14:34:00.288,0,No collection,Not direction-coded,None,2,2,1,430
+7,Observation 7,N5,2017-12-03,2017-12-03T14:53:24.817,0,No collection,Not direction-coded,None,3,3,2,481
+7,Observation 7,N5,2017-12-03,2017-12-03T15:32:00.995,0,No collection,Not direction-coded,None,2,2,1,519
+7,Observation 7,N5,2017-12-03,2017-12-03T15:33:06.822,0,No collection,Not direction-coded,None,3,3,2,525
+7,Observation 7,N5,2017-12-03,2017-12-03T15:33:41.865,0,No collection,Not direction-coded,None,3,3,2,528
+7,Observation 7,N5,2017-12-03,2017-12-03T15:40:15.051,0,No collection,Not direction-coded,None,2,2,1,559
+7,Observation 7,N5,2017-12-03,2017-12-03T15:52:13.131,0,No collection,Not direction-coded,None,2,2,1,590
+7,Observation 7,N5,2017-12-03,2017-12-03T15:53:37.630,0,No collection,Not direction-coded,None,2,2,1,596
+7,Observation 7,N5,2017-12-03,2017-12-03T18:05:46.001,0,No collection,Not direction-coded,None,2,2,1,845
+7,Observation 7,N5,2017-12-03,2017-12-03T18:08:14.711,0,No collection,Not direction-coded,None,3,3,2,862
+8,Observation 8,N6,2017-12-05,2017-12-05T14:25:16.431,0,No collection,Not direction-coded,None,2,2,1,368
+8,Observation 8,N6,2017-12-05,2017-12-05T15:56:01.694,0,No collection,Not direction-coded,None,2,2,1,492
+8,Observation 8,N6,2017-12-05,2017-12-05T15:57:16.742,0,No collection,Not direction-coded,None,3,3,2,505
+8,Observation 8,N6,2017-12-05,2017-12-05T16:01:35.587,0,No collection,Not direction-coded,None,4,4,3,517
+9,Observation 9,M(5),2017-12-06,2017-12-06T11:44:01.839,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,50
+9,Observation 9,M(5),2017-12-06,2017-12-06T11:45:39.967,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,56
+9,Observation 9,M(5),2017-12-06,2017-12-06T13:20:47.997,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,321
+9,Observation 9,M(5),2017-12-06,2017-12-06T16:25:33.512,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,682
+10,Observation 10,V4,2017-12-12,2017-12-12T13:17:40.355,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,214
+10,Observation 10,V4,2017-12-12,2017-12-12T16:30:11.948,0,No collection,Focal displaced another grackle,Displacement from focal to others,4,4,3,503
+10,Observation 10,V4,2017-12-12,2017-12-12T17:07:36.081,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,540
+11,Observation 11,N8,2017-12-13,2017-12-13T10:56:04.357,1,Pre-collection,Not direction-coded,None,5,5,4,105
+11,Observation 11,N8,2017-12-13,2017-12-13T12:26:04.688,1,Post-collection,Not direction-coded,None,2,2,1,286
+12,Observation 12,M(7),2017-12-14,2017-12-14T10:59:51.470,0,No collection,Another grackle displaced focal,Displacement from others to focal,5,5,4,11
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:00:51.903,0,No collection,Another grackle displaced focal,Displacement from others to focal,6,6,5,36
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:16:47.048,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,124
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:17:14.791,0,No collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,128
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:27:34.343,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,202
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:35:50.858,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,239
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:48:46.931,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,271
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:50:27.572,0,No collection,Focal displaced another grackle,Displacement from focal to others,3,3,2,288
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:52:07.265,0,No collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,308
+12,Observation 12,M(7),2017-12-14,2017-12-14T11:52:24.501,0,No collection,Another grackle displaced focal,Displacement from others to focal,4,4,3,312
+12,Observation 12,M(7),2017-12-14,2017-12-14T13:04:26.833,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,579
+12,Observation 12,M(7),2017-12-14,2017-12-14T13:15:54.911,0,No collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,651
+12,Observation 12,M(7),2017-12-14,2017-12-14T13:52:35.298,0,No collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,819
+12,Observation 12,M(7),2017-12-14,2017-12-14T14:07:05.198,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,856
+12,Observation 12,M(7),2017-12-14,2017-12-14T14:22:02.400,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,902
+12,Observation 12,M(7),2017-12-14,2017-12-14T15:22:06.084,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,935
+12,Observation 12,M(7),2017-12-14,2017-12-14T15:22:10.805,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,937
+12,Observation 12,M(7),2017-12-14,2017-12-14T15:23:20.333,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,945
+13,Observation 13,V5,2017-12-15,2017-12-15T13:48:39.654,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,310
+15,Observation 15,V7,2017-12-20,2017-12-20T10:42:05.474,1,Pre-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,396
+15,Observation 15,V7,2017-12-20,2017-12-20T12:15:08.904,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,715
+15,Observation 15,V7,2017-12-20,2017-12-20T14:12:42.955,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,5,5,4,1064
+15,Observation 15,V7,2017-12-20,2017-12-20T14:12:47.868,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,5,5,4,1067
+16,Observation 16,V8,2017-12-21,2017-12-21T11:37:16.219,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,819
+16,Observation 16,V8,2017-12-21,2017-12-21T11:49:18.217,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,877
+16,Observation 16,V8,2017-12-21,2017-12-21T12:31:28.613,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,988
+17,Observation 17,M(8),2017-12-22,2017-12-22T10:25:32.726,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,73
+17,Observation 17,M(8),2017-12-22,2017-12-22T10:49:07.582,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,245
+17,Observation 17,M(8),2017-12-22,2017-12-22T12:34:58.721,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,453
+17,Observation 17,M(8),2017-12-22,2017-12-22T13:29:50.721,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,479
+17,Observation 17,M(8),2017-12-22,2017-12-22T13:29:52.102,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,480
+17,Observation 17,M(8),2017-12-22,2017-12-22T15:38:00.834,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,959
+18,Observation 18,N9,2017-12-29,2017-12-29T10:33:25.832,1,Pre-collection,Not direction-coded,None,1,1,0,248
+21,Observation 21,V1,2018-01-01,2018-01-01T13:10:08.431,0,No collection,Focal displaced another grackle,Displacement from focal to others,3,3,2,118
+21,Observation 21,V1,2018-01-01,2018-01-01T13:27:38.892,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,167
+21,Observation 21,V1,2018-01-01,2018-01-01T13:27:46.890,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,170
+21,Observation 21,V1,2018-01-01,2018-01-01T13:27:47.297,0,No collection,Not direction-coded,Blank,2,2,1,172
+21,Observation 21,V1,2018-01-01,2018-01-01T13:41:08.902,0,No collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,214
+21,Observation 21,V1,2018-01-01,2018-01-01T15:29:19.903,0,No collection,Another grackle displaced focal,Displacement from others to focal,4,4,3,256
+21,Observation 21,V1,2018-01-01,2018-01-01T15:29:21.649,0,No collection,Focal displaced another grackle,Displacement from focal to others,4,4,3,257
+22,Observation 22,M(1),2018-01-02,2018-01-02T09:39:22.241,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,44
+22,Observation 22,M(1),2018-01-02,2018-01-02T09:45:09.788,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,60
+22,Observation 22,M(1),2018-01-02,2018-01-02T10:38:48.321,0,No collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,229
+22,Observation 22,M(1),2018-01-02,2018-01-02T10:57:45.411,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,310
+22,Observation 22,M(1),2018-01-02,2018-01-02T11:24:58.410,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,378
+22,Observation 22,M(1),2018-01-02,2018-01-02T11:25:50.962,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,392
+22,Observation 22,M(1),2018-01-02,2018-01-02T12:13:33.912,0,No collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,497
+22,Observation 22,M(1),2018-01-02,2018-01-02T13:24:08.239,0,No collection,Focal displaced another grackle,Displacement from focal to others,4,4,3,634
+22,Observation 22,M(1),2018-01-02,2018-01-02T13:24:18.647,0,No collection,Another grackle displaced focal,Displacement from others to focal,4,4,3,635
+22,Observation 22,M(1),2018-01-02,2018-01-02T13:56:40.065,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,724
+22,Observation 22,M(1),2018-01-02,2018-01-02T13:56:45.880,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,727
+22,Observation 22,M(1),2018-01-02,2018-01-02T13:56:57.744,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,730
+22,Observation 22,M(1),2018-01-02,2018-01-02T15:56:10.913,0,No collection,Another grackle displaced focal,Displacement from others to focal,Unknown,,,868
+23,Observation 23,M(2),2018-01-03,2018-01-03T07:51:22.145,1,Pre-collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,6
+23,Observation 23,M(2),2018-01-03,2018-01-03T08:41:11.601,1,Pre-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,38
+23,Observation 23,M(2),2018-01-03,2018-01-03T08:42:27.407,1,Pre-collection,Another grackle displaced focal,Displacement from others to focal,3,3,2,55
+23,Observation 23,M(2),2018-01-03,2018-01-03T08:42:30.774,1,Pre-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,57
+23,Observation 23,M(2),2018-01-03,2018-01-03T11:50:52.631,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,1,1,0,239
+23,Observation 23,M(2),2018-01-03,2018-01-03T11:51:02.238,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,241
+23,Observation 23,M(2),2018-01-03,2018-01-03T12:04:47.865,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,315
+23,Observation 23,M(2),2018-01-03,2018-01-03T13:06:14.625,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,7,7,6,375
+23,Observation 23,M(2),2018-01-03,2018-01-03T13:06:26.135,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,7,7,6,376
+23,Observation 23,M(2),2018-01-03,2018-01-03T15:12:44.817,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,482
+23,Observation 23,M(2),2018-01-03,2018-01-03T16:34:01.310,1,Post-collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,546
+23,Observation 23,M(2),2018-01-03,2018-01-03T16:48:34.115,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,696
+23,Observation 23,M(2),2018-01-03,2018-01-03T16:53:03.592,1,Post-collection,Focal displaced another grackle,Displacement from focal to others,2,2,1,711
+24,Observation 24,M(3),2018-01-04,2018-01-04T10:00:02.365,0,No collection,Another grackle displaced focal,Displacement from others to focal,1,1,0,87
+24,Observation 24,M(3),2018-01-04,2018-01-04T16:55:43.830,0,No collection,Another grackle displaced focal,Displacement from others to focal,2,2,1,480
+25,Observation 25,N1,2018-01-06,2018-01-06T10:27:34.385,1,Post-collection,Not direction-coded,None,2,2,1,181
+25,Observation 25,N1,2018-01-06,2018-01-06T10:27:59.297,1,Post-collection,Not direction-coded,None,2,2,1,191
+25,Observation 25,N1,2018-01-06,2018-01-06T10:52:42.661,1,Post-collection,Not direction-coded,None,2,2,1,294
+25,Observation 25,N1,2018-01-06,2018-01-06T11:24:26.918,1,Post-collection,Not direction-coded,None,3,3,2,415
+25,Observation 25,N1,2018-01-06,2018-01-06T12:42:49.773,1,Post-collection,Not direction-coded,None,1,1,0,643

@@ -1,0 +1,7 @@
+"metric","value"
+"Leave-one-day-out fits","25"
+"Minimum rate ratio","1.00343428059286"
+"Day omitted at minimum","V8"
+"Maximum rate ratio","1.45370525337004"
+"Day omitted at maximum","M(4)"
+"Fits with rate ratio above 1","25"

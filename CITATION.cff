@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use these data or code, please cite this software release and the associated manuscript."
+title: "Great-tailed Grackle garbage-collection reanalysis"
+type: software
+version: 1.0.0
+date-released: 2026-08-31
+authors:
+  - family-names: Rodrigo
+    given-names: Alejandro
+    email: alejandro.rodrigo.research@gmail.com
+  - family-names: Ávila-Chauvet
+    given-names: Laurent
+  - family-names: Buriticá
+    given-names: Jonathan
+abstract: >-
+  Derived behavioral datasets, commented analysis code, model output, audits,
+  and figures for a reanalysis of Great-tailed Grackle behavior around urban
+  garbage collection.
+keywords:
+  - Quiscalus mexicanus
+  - urban behavior
+  - garbage collection
+  - generalized additive model
+  - reproducible research
+license: "NOASSERTION"

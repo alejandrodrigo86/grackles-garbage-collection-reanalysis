@@ -1,0 +1,4 @@
+         para s(observation_id)
+worst       1        1.00000000
+observed    1        0.01929140
+estimate    1        0.09407644

@@ -1,0 +1,10 @@
+"weekday","weekend","collection_status","observation_days"
+"Monday",FALSE,"No collection",1
+"Tuesday",FALSE,"No collection",3
+"Thursday",FALSE,"No collection",4
+"Saturday",TRUE,"No collection",3
+"Sunday",TRUE,"No collection",2
+"Monday",FALSE,"Collection",1
+"Wednesday",FALSE,"Collection",6
+"Friday",FALSE,"Collection",4
+"Saturday",TRUE,"Collection",1
