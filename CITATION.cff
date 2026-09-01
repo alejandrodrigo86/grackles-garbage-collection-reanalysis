@@ -4,6 +4,8 @@ title: "Great-tailed Grackle garbage-collection reanalysis"
 type: software
 version: 1.0.0
 date-released: 2026-09-01
+doi: 10.5281/zenodo.22234394
+repository-code: "https://github.com/alejandrodrigo86/grackles-garbage-collection-reanalysis"
 authors:
   - family-names: Rodrigo
     given-names: Alejandro

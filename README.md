@@ -47,7 +47,7 @@ The public archive contains derived behavioral data needed to reproduce the repo
 
 ## Citation
 
-Until the manuscript has a final bibliographic citation, cite this release using `CITATION.cff`. The Zenodo DOI will be added to that file and to the manuscript when version 1.0.0 is deposited.
+Until the manuscript has a final bibliographic citation, cite the archived version 1.0.0 release using [https://doi.org/10.5281/zenodo.22234394](https://doi.org/10.5281/zenodo.22234394) and the metadata in `CITATION.cff`. The maintained repository is available at [https://github.com/alejandrodrigo86/grackles-garbage-collection-reanalysis](https://github.com/alejandrodrigo86/grackles-garbage-collection-reanalysis).
 
 ## Licensing
 
